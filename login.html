@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Магазин техники - Вход/Регистрация</title>
+    <link rel="stylesheet" href="css/login.css">
+</head>
+<body>
+    
+    <div class="auth-container">
+        <div class="form-box" id="login-box">
+            <h2>Вход</h2>
+            <form id="login-form">
+                <input type="email" id="login-email" placeholder="Email" required>
+                <input type="password" id="login-password" placeholder="Пароль" required>
+                <button type="submit">Войти</button>
+            </form>
+            <p>Нет аккаунта? <span id="show-register">Зарегистрироваться</span></p>
+        </div>
+
+        <div class="form-box" id="register-box" style="display:none;">
+            <h2>Регистрация</h2>
+            <form id="register-form">
+                <input type="text" id="register-name" placeholder="Имя" required>
+                <input type="email" id="register-email" placeholder="Email" required>
+                <input type="password" id="register-password" placeholder="Пароль" required>
+                <button type="submit">Зарегистрироваться</button>
+            </form>
+            <p>Уже есть аккаунт? <span id="show-login">Войти</span></p>
+        </div>
+    </div>
+
+    <script src="scriptlogin.js"></script>
+</body>
+</html>

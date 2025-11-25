@@ -1,0 +1,83 @@
+/* === О нас === */
+.about {
+  padding: 80px 40px;
+  background: linear-gradient(180deg, #f9fafb 0%, #ffffff 100%);
+  text-align: center;
+}
+
+.about-container {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.about h2 {
+  font-size: 36px;
+  margin-bottom: 20px;
+  font-weight: 800;
+  color: #0f172a;
+}
+
+.about > div > p {
+  font-size: 18px;
+  color: #6b7280;
+  margin-bottom: 40px;
+}
+
+.about-text {
+  text-align: left;
+  background: #fff;
+  padding: 40px;
+  border-radius: 16px;
+  box-shadow: 0 8px 20px rgba(14, 30, 37, 0.06);
+  margin-bottom: 40px;
+}
+
+.about-text h3 {
+  color: #0ea5a4;
+  font-size: 22px;
+  margin-top: 24px;
+}
+
+.about-text ul {
+  list-style: none;
+  padding: 0;
+  text-align: left;
+}
+
+.about-text li {
+  font-size: 16px;
+  padding: 8px 0;
+  color: #0f172a;
+}
+
+.about-stats {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+}
+
+.stat {
+  background: #fff;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(14, 30, 37, 0.06);
+}
+
+.stat h4 {
+  font-size: 32px;
+  color: #0ea5a4;
+  margin: 0;
+}
+
+.stat p {
+  color: #6b7280;
+  margin: 8px 0 0 0;
+}
+
+footer {
+  background: #0f172a;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+  margin-top: 40px;
+}

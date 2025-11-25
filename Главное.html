@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Магазин техники Suplak</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <header>
+    <div class="header-1">
+      <h1>Suplak</h1>
+      <nav>
+        <ul>
+          <li><a href="login.html">Вход/Регистрация</a></li>
+          <li><a href="Главное.html">Главное</a></li>
+          <li><a href="Товары.html">Товары</a></li>
+          <li><a href="Доставка.html">Доставка</a></li>
+          <li><a href="О нас.html">О нас</a></li>
+        </ul>
+      </nav>
+
+      <!-- Корзина -->
+      <div class="cart-icon" id="cartBtn">
+        🛒
+        <span id="cart-count">0</span>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- Герой секция -->
+    <section class="hero">
+      <div class="hero-content">
+        <h2>Добро пожаловать в Suplak</h2>
+        <p>Лучший выбор современной техники и электроники</p>
+        <a href="Товары.html" class="btn-hero">Перейти в каталог</a>
+      </div>
+    </section>
+
+    <!-- Популярные товары -->
+    <section class="products">
+      <h2>Популярные товары</h2>
+      <div class="products-grid">
+        <div class="product">
+          <div class="product-img">
+            <img src="https://via.placeholder.com/280x240?text=Смартфон" alt="Смартфон">
+            <span class="badge">Новое</span>
+          </div>
+          <div class="product-info">
+            <h3>Смартфон Pro Max</h3>
+            <p>Последнее поколение технологий</p>
+            <div class="price"><span class="old">99 999₸</span>89 999₸</div>
+            <button class="btn-buy">В корзину</button>
+          </div>
+        </div>
+
+        <div class="product">
+          <div class="product-img">
+            <img src="https://via.placeholder.com/280x240?text=Ноутбук" alt="Ноутбук">
+            <span class="badge sale">Скидка</span>
+          </div>
+          <div class="product-info">
+            <h3>Ноутбук UltraBook</h3>
+            <p>Мощный и легкий ноутбук</p>
+            <div class="price"><span class="old">459 999₸</span>399 999₸</div>
+            <button class="btn-buy">В корзину</button>
+          </div>
+        </div>
+
+        <div class="product">
+          <div class="product-img">
+            <img src="https://via.placeholder.com/280x240?text=Наушники" alt="Наушники">
+            <span class="badge">Рекомендуем</span>
+          </div>
+          <div class="product-info">
+            <h3>Наушники Pro</h3>
+            <p>Качественный звук, шумоподавление</p>
+            <div class="price">29 999₸</div>
+            <button class="btn-buy">В корзину</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Преимущества -->
+    <section class="features">
+      <h2>Почему выбирают Suplak</h2>
+      <div class="features-grid">
+        <div class="feature-card">
+          <div class="feature-icon">📦</div>
+          <h3>Быстрая доставка</h3>
+          <p>Доставляем товары в течение 24 часов</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon">✅</div>
+          <h3>Гарантия качества</h3>
+          <p>Все товары проверены и гарантированы</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon">💰</div>
+          <h3>Лучшие цены</h3>
+          <p>Конкурентные цены и частые скидки</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon">🛡️</div>
+          <h3>Безопасность</h3>
+          <p>Защита данных и надежные платежи</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Suplak. Все права защищены.</p>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>

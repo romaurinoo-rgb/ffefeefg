@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Наши Товары</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <header>
+    <div class="header-1">
+      <h1>Suplak</h1>
+      <nav>
+        <ul>
+        <li><a href="login.html">Вход/Регистрация</a></li>
+        <li><a href="Главное.html">Главное</a></li>
+        <li><a href="Товары.html">Товары</a></li>
+        <li><a href="Доставка.html">Доставка</a></li>
+        <li><a href="#">О нас</a></li>
+        </ul>
+      </nav>
+
+      <!-- Корзина -->
+      <div class="cart-icon" id="cartBtn">
+        🛒
+        <span id="cart-count">0</span>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="products">
+      <h2>Наши навинки</h2>
+      <div class="products-grid">
+
+        <div class="product">
+          <div class="product-img">
+            <img src="images/600x600.jpg" alt="iPhone 16">
+            <span class="badge">Новинка</span>
+          </div>
+          <div class="product-info">
+            <h3>iPhone 16</h3>
+            <p>Флагман нового поколения</p>
+            <p class="price">₸499 000</p>
+            <button class="btn-buy">В корзину</button>
+          </div>
+        </div>
+
+        <div class="product">
+          <div class="product-img">
+            <img src="images/i (1).webp" alt="MacBook Pro">
+            <span class="badge hot">Хит продаж</span>
+          </div>
+          <div class="product-info">
+            <h3>MacBook Pro</h3>
+            <p>Мощный ноутбук для работы и творчества</p>
+            <p class="price">₸600 000</p>
+            <button class="btn-buy">В корзину</button>
+          </div>
+        </div>
+
+        <div class="product">
+          <div class="product-img">
+            <img src="images/S600xU_2x.webp" alt="AirPods Pro">
+            <span class="badge sale">Скидка</span>
+          </div>
+          <div class="product-info">
+            <h3>AirPods Pro</h3>
+            <p>Наушники с активным шумоподавлением</p>
+            <p class="price"><span class="old">₸499 000</span> ₸399 000</p>
+            <button class="btn-buy">В корзину</button>
+          </div>
+        </div>
+
+      </div>
+    </section>
+  </main>
+
+  <!-- Модальное окно корзины -->
+  <div class="cart-modal" id="cartModal">
+    <div class="cart-content">
+      <h3>Корзина</h3>
+      <ul id="cart-items"></ul>
+      <div class="cart-footer">
+        <p>Итого: <span id="cart-total">₸0</span></p>
+        <button id="checkout">Оформить заказ</button>
+      </div>
+      <button class="close-cart" id="closeCart">×</button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
